@@ -12,16 +12,24 @@
 </header>
 <body>
     <main>
-        <form action="|">
+        <h2>Weather Copenhagen</h2>
+        <!-- <form action="|">
             <label for="search_city">Choose a city</label>
             <input id="search_city" name="search_city" type="text">
-        </form>
+        </form> -->
+
+        <section id="weather_container"></section>
     </main>
+    <template id="weather_card">
+        <div class="weather_card">
+            <h3 class="date"></h3>
+                <ul>
+                    <li class="temperature"></li>
+                    <li class="weathercode"></li>
+                    <li class="rain"></li>
+                    <li class="sunrise"></li>
+                </ul>
+        </div>
+    </template>
 </body>
 </html>
-
-<template>
-    <section id="card">
-
-    </section>
-</template>
